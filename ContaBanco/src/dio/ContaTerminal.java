@@ -55,7 +55,7 @@ public class ContaTerminal {
      * @return double o retorno desse método á variável no qual o saldo do cliente está alocado.
      */
     public static double obterSaldoCliente(){
-        System.out.println("Por favor, digite o número qual o saldo da conta!");
+        System.out.println("Por favor, digite qual o saldo da conta!");
         saldoCliente = scanner.nextDouble();
         
         return saldoCliente;
